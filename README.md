@@ -1,6 +1,7 @@
-[![Scala.js](https://www.scala-js.org/assets/badges/scalajs-0.6.8.svg)](https://www.scala-js.org)
-
 # Scala.js façade for soundfont-player
+
+[![Scala.js](https://www.scala-js.org/assets/badges/scalajs-0.6.8.svg)](https://www.scala-js.org)
+[![Build Status](https://travis-ci.org/FunkeMT/scala-js-soundfontPlayer.svg?branch=master)](https://travis-ci.org/FunkeMT/scala-js-soundfontPlayer)
 
 [soundfont-player](https://github.com/danigb/soundfont-player) is a JavaScript library which loads soundfonts to play MIDI sounds using the WebAudio API.
 
