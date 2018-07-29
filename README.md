@@ -1,6 +1,6 @@
-# Scala.js façade for soundfont-player
-
 [![Scala.js](https://www.scala-js.org/assets/badges/scalajs-0.6.8.svg)](https://www.scala-js.org)
+
+# Scala.js façade for soundfont-player
 
 [soundfont-player](https://github.com/danigb/soundfont-player) is a JavaScript library which loads soundfonts to play MIDI sounds using the WebAudio API.
 
@@ -23,7 +23,19 @@ The following supporting scala.js façades are included, **Soundfont.intrument**
 Using Scala.js-0.6.10, Scala-2.11.8, sbt-0.13.11
 
 
-## Usage   
+## Usage
+
+### via `bintry` Resolver
+```
+...
+resolvers += "funkemt" at "http://dl.bintray.com/content/funkemt/maven",
+libraryDependencies ++= Seq(
+    "com.github.funkemt" %%% "scala-js-soundfontplayer" % "0.1"
+)
+...
+```
+
+### via `ivy` Repository
    
 To publish this library locally, type:
    
